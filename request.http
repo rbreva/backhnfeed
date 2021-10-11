@@ -1,0 +1,17 @@
+###
+POST http://localhost:9000/api/hnfeed HTTP/1.1
+Content-Type: application/json
+
+{
+    "objectID": "muestra ID",
+    "title": "titulo 01",
+    "story_title": "titulo 02",
+    "author": "autor",
+    "story_url": "url 01",
+    "url": "url 02",
+    "created_at": "creado"
+}
+
+###
+GET http://localhost:9000/api/hnfeed HTTP/1.1
+
